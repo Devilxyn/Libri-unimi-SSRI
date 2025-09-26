@@ -14,9 +14,9 @@ function includeHTML(id, file, callback) {
 document.addEventListener("DOMContentLoaded", function () {
   // Lista di include con i rispettivi id
   const includesList = [
-    { id: "header-include", file: "static/header.html" },
-    { id: "sidebar-include", file: "static/sidebar.html" },
-    { id: "footer-include", file: "static/footer.html" }
+    { id: "header-include", file: "/static/header.html" },
+    { id: "sidebar-include", file: "/static/sidebar.html" },
+    { id: "footer-include", file: "/static/footer.html" }
   ];
 
   let done = 0;
