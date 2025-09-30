@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (done === includesList.length) {
       // quando tutti gli include sono caricati → carica theme.js
       const script = document.createElement("script");
-      script.src = "static/theme.js";
+      script.src = "/static/theme.js";
       document.body.appendChild(script);
     }
   }
